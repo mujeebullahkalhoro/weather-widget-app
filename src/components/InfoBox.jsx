@@ -17,7 +17,7 @@ export default function InfoBox({ info }) {
 
   return (
     <div className="InfoBox">
-      <h1>WeatherInfo- {info.weather}</h1>
+      
       
       <div className="CardContainner">
       <Card sx={{ maxWidth: 345 }}>

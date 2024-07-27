@@ -4,7 +4,21 @@
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
+    color: white;
 }
-.customTextField .MuiOutlinedInput-root {
-    font-weight: bold;
+.customTextField .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: white; /* Default border color */
+}
+
+.customTextField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: white; /* Border color when focused */
+}
+
+.customTextField .MuiInputLabel-root {
+    color: white; /* Label color */
+}
+
+/* Ensure the label color changes on focus */
+.customTextField .MuiInputLabel-root.Mui-focused {
+    color: white;
 }
